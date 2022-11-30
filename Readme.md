@@ -1,6 +1,9 @@
 ## wasm-frontend-backend
 This is a POC project aimed at demonstrating how WASM can allow code sharing between a Frontend browser-consumed application and a backend microservice.
 
+<img src="https://i.imgur.com/NktzMGj.png" />
+
+
 ### Backend
 The backend microservice is a Console App packed with Wasi.Sdk and running inside Wagi, exposing the service on the port 3000.
 
