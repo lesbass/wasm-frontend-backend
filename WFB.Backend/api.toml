@@ -1,0 +1,3 @@
+[[module]]
+route = "/"
+module = "./app/WFB.Backend.wasm"

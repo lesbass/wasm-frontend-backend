@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFB.Services", "WFB.Services\WFB.Services.csproj", "{6F1A1C25-D895-46B7-8311-3EA9DB159E87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFB.Frontend", "WFB.Frontend\WFB.Frontend.csproj", "{AE0E70B1-6AD7-4A74-B07B-C9F17D092A1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFB.Backend", "WFB.Backend\WFB.Backend.csproj", "{6DD88FFF-D267-40F9-B1BF-03C3A6BE0476}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F1A1C25-D895-46B7-8311-3EA9DB159E87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F1A1C25-D895-46B7-8311-3EA9DB159E87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F1A1C25-D895-46B7-8311-3EA9DB159E87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F1A1C25-D895-46B7-8311-3EA9DB159E87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE0E70B1-6AD7-4A74-B07B-C9F17D092A1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE0E70B1-6AD7-4A74-B07B-C9F17D092A1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE0E70B1-6AD7-4A74-B07B-C9F17D092A1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE0E70B1-6AD7-4A74-B07B-C9F17D092A1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DD88FFF-D267-40F9-B1BF-03C3A6BE0476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DD88FFF-D267-40F9-B1BF-03C3A6BE0476}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DD88FFF-D267-40F9-B1BF-03C3A6BE0476}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DD88FFF-D267-40F9-B1BF-03C3A6BE0476}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
