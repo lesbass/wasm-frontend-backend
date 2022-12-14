@@ -21,6 +21,8 @@ public partial class MyClass
     [JSExport]
     internal static async Task<string> ComputeHash()
     {
+        Client.DefaultRequestHeaders.Add("Where-Are-You-From", "WASM, of course! :)");
+
         var currentNumber = GetCurrentNumber();
         var url = $"http://localhost:3000?number={currentNumber}";
         var result = await Client.GetFromJsonAsync<HashResult>(url);

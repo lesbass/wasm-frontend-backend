@@ -19,6 +19,7 @@ void WriteResponse(object data)
     var sb = new StringBuilder();
     sb.AppendLine("Content-type: application/json");
     sb.AppendLine("Access-Control-Allow-Origin: *");
+    sb.AppendLine("Access-Control-Allow-Headers: *");
     sb.AppendLine();
     sb.AppendLine(JsonSerializer.Serialize(data));
 

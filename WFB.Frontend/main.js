@@ -26,6 +26,7 @@ document.getElementById('compute-js').addEventListener('click', () => {
         method: 'GET',
         headers: {
             'Accept': 'application/json',
+            'Where-Are-You-From': 'Good old Javascript :('
         },
     })
         .then(response => response.json())
