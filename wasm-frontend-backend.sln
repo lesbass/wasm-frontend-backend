@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFB.Frontend", "WFB.Fronten
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFB.Backend", "WFB.Backend\WFB.Backend.csproj", "{6DD88FFF-D267-40F9-B1BF-03C3A6BE0476}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFB.BackendApi", "WFB.BackendApi\WFB.BackendApi.csproj", "{72774FA2-762D-40FB-B5A6-9D9E5169757A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{6DD88FFF-D267-40F9-B1BF-03C3A6BE0476}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DD88FFF-D267-40F9-B1BF-03C3A6BE0476}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DD88FFF-D267-40F9-B1BF-03C3A6BE0476}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72774FA2-762D-40FB-B5A6-9D9E5169757A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72774FA2-762D-40FB-B5A6-9D9E5169757A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72774FA2-762D-40FB-B5A6-9D9E5169757A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72774FA2-762D-40FB-B5A6-9D9E5169757A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -18,3 +18,9 @@ services:
     ports:
       - "8080:8080"
     entrypoint: ["dotnet", "run"]
+  backend-api:
+    build: ./WFB.BackendApi
+    platform: wasi/wasm32
+    runtime: io.containerd.wasmedge.v1
+    ports:
+      - "8081:8080"
