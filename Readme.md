@@ -4,6 +4,14 @@ This is a POC project aimed at demonstrating how WASM can allow code sharing bet
 <img src="https://i.imgur.com/NktzMGj.png" />
 
 
+### TL;DR;
+To run the demo, just run
+`make run`
+
+and visit the url http://localhost:8080
+
+---
+
 ### Backend
 The backend microservice is a Console App packed with Wasi.Sdk and running inside Wagi, exposing the service on the port 3000.
 
